@@ -339,6 +339,27 @@ void main(int argc, char **argv)
                         }
                     }
                 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
             }
         }
     }
@@ -353,7 +374,6 @@ void main(int argc, char **argv)
            (double)cache_statistics.hits / cache_statistics.accesses);
     // DO NOT CHANGE UNTIL HERE
     // You can extend the memory statistic printing if you like!
-
 
     if (cache_org == sc)
     {
@@ -408,3 +428,18 @@ uint64_t splitBinary(uint64_t number, int num_leading_bits, int removed)
     // printf("%I64u\n", returnVal);
     return (returnVal);
 }
+
+
+101001.010.101
+
+
+101001000000 tag
+000000010000 index
+000000000101 offset
+
+
+101001 tag
+
+010 index
+
+101 offset
